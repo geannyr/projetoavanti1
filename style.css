@@ -1,0 +1,172 @@
+
+  /* Geral */
+ body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f8f9fa;
+  }
+  
+
+  header {
+    background-color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  .card h6 {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+  }
+  
+  .logo {
+    font-family: 'Segoe UI', sans-serif;
+    letter-spacing: 1px;
+  }
+
+/* Pesquisa */
+  #searchForm input:focus {
+    box-shadow: none;
+    border-color: #ced4da;
+  }
+
+  /* Carrosel */
+  .carousel-control-prev, .carousel-control-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 48px;
+    height: 48px;
+    background-color: white;
+    border: 2px solid #007bff;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    opacity: 1;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-image: none;
+    color: #007bff;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .carousel-control-prev-icon::before {
+    content: '‹';
+  }
+  
+  .carousel-control-next-icon::before {
+    content: '›';
+  }
+  
+  .carousel-control-prev {
+    left: -30px;
+  }
+  
+  .carousel-control-next {
+    right: -30px;
+  }
+
+  /* Dropdown */
+  .dropdown-menu {
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    top: 100% !important;
+    border-radius: 0 0 8px 8px;
+  }
+
+  .nav-item.dropdown:hover > .nav-link {
+    color: #0d6efd !important;
+  }
+
+  .dropdown-menu .col-md-2,
+  .dropdown-menu .col-md-8 {
+    padding: 0 15px;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #f8f9fa;
+    color: #000000;
+  }
+  
+  .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; 
+  }
+  
+  .highlight-purple {
+    background-color: #6f42c1; 
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .newsletter-box {
+    background-color: #e2e2e2;
+    border-radius: 10px;
+    min-height: 180px; 
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+  }
+
+  .icon-circle {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #0d6efd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  
+  .icon-circle i {
+    font-size: 1.25rem;
+  }
+
+  .bg-custom-gray {
+    background-color: #e9ecef; 
+  }
+  
+  .cta-banner {
+    background-image: url('images/dark-blue.jpg'); 
+    background-size: cover;
+    background-position: center;
+    min-height: 600px;
+    position: relative;
+  }
+  
+  .cta-overlay {
+    background-color: rgba(0, 102, 255, 0.9);
+  }
+
+  /* Responsivo */
+  @media (max-width: 768px) {
+    header {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 1rem;
+    }
+  
+    #product-template {
+      flex: 0 0 50%;
+    }
+  
+    .card h6 {
+      font-size: 0.9rem;
+    }
+  }
+
+
+
+  
+  
