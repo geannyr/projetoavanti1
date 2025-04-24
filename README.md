@@ -16,6 +16,15 @@ Bem-vindo ao repositório do **Projeto Avanti** — um site moderno e responsivo
 
 ---
 
+## 🛠️ Funcionalidades
+Menu de navegação com mega menu responsivo
+
+Cards de produtos com destaque para promoções
+
+Seção institucional e de atendimento no footer
+
+Layout inspirado em interface real (via Figma)
+
 ## 🧰 Tecnologias Utilizadas
 
 - HTML5
@@ -23,3 +32,5 @@ Bem-vindo ao repositório do **Projeto Avanti** — um site moderno e responsivo
 - Bootstrap 5
 - JavaScript
 - GitHub Pages (para deploy)
+
+
