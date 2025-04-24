@@ -6,7 +6,7 @@ Bem-vindo ao repositório do **Projeto Avanti** — um site moderno e responsivo
 
 ## 📸 Preview
 
-(![image](https://github.com/user-attachments/assets/57b00f73-1a30-4217-b3f2-a90f1d766e83) <!-- Altere para um preview real do seu site quando possível -->
+![image](https://github.com/user-attachments/assets/57b00f73-1a30-4217-b3f2-a90f1d766e83) <!-- Altere para um preview real do seu site quando possível -->
 
 ---
 
